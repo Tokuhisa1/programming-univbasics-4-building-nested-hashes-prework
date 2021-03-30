@@ -47,12 +47,12 @@ def monopoly_with_fourth_tier
   # Run the tests. They will fail, but they'll guide you in
   # how to modify what you just did to have more complexity.
   hash = monopoly_with_third_tier
-  hash = hash[:railroads][:names]
+  hash2 = hash[:railroads][:names]
   
-  hash[:reading_railroad][:mortgage_value]      = 100
-  hash[:pennsylvania_railroad][:mortgage_value] = 200
-  hash[:b_and_o_railroad][:mortgage_value]      = 400
-  hash[:shortline_railroad][:mortgage_value]    = 800
+  hash2[:reading_railroad][:mortgage_value]      = 100
+  hash2[:pennsylvania_railroad][:mortgage_value] = 200
+  hash2[:b_and_o_railroad][:mortgage_value]      = 400
+  hash2[:shortline_railroad][:mortgage_value]    = 800
 
   hash
 end
